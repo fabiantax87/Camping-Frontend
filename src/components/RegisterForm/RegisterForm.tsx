@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./RegisterForm.scss";
 
 const RegisterForm = () => {
@@ -37,7 +38,11 @@ const RegisterForm = () => {
         <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
         <input type="password" placeholder="Wachtwoord" value={wachtwoord} onChange={(e) => setWachtwoord(e.target.value)} />
       </form>
-      <button onClick={(e) => register(e)}>Account aanmaken</button>
+      <div className="submit-group">
+        <button onClick={(e) => register(e)}>Account aanmaken</button>
+        <p>of</p>
+        <Link to="/login">Login</Link>
+      </div>
     </>
   );
 };

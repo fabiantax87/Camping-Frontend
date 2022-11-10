@@ -13,51 +13,8 @@
     align-items: center;
     gap: 25px;
     background-color: var(--light-gray);
+    box-shadow: 7px 5px 15px -5px rgba(0, 0, 0, 0.3);
     padding: 60px;
     border-radius: 5px;
-
-    .login-form {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      gap: 5px;
-
-      input {
-        border: none;
-        outline: none;
-        border-radius: 10px;
-        padding: 10px;
-      }
-
-      button {
-        padding: 10px;
-        border: none;
-        border-radius: 10px;
-        color: white;
-        background-color: var(--dark-green);
-      }
-    }
-
-    .google-btn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 15px;
-      width: 100%;
-      border: none;
-      background-color: white;
-      padding: 10px;
-      font-weight: bold;
-      color: var(--dark-gray);
-
-      svg {
-        width: 24px;
-        height: 24px;
-      }
-    }
-
-    a {
-      color: var(--dark-green);
-    }
   }
 }
