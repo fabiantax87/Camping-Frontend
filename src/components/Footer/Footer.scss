@@ -1,0 +1,16 @@
+.footer {
+    width: 100%;
+    padding: 20px 0px 30px 0px;
+    margin-top: 20px;
+    background-color: var(--dark-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        color: white;
+        width: 60%;
+    }
+}
